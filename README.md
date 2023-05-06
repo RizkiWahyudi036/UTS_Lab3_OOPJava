@@ -14,7 +14,17 @@ Getter dan setter memiliki peranan penting untuk mendapatkan data dan dapat dipa
 
 ### No 2
 A. Reverse Huruf
+![2 2](https://user-images.githubusercontent.com/115088806/236632173-bc11825c-5860-4da9-8516-612ef34a18a5.png)
+
 B. Reverse Kata
+![2 1](https://user-images.githubusercontent.com/115088806/236632185-62ee65b4-72d1-4dc5-a6ec-0b0d8c117fc3.png)
 
 ### No 3
 NIM GENAP
+![3](https://user-images.githubusercontent.com/115088806/236632194-148bf2f8-50d1-46a4-910d-38175ba4557e.png)
+
+### No 4
+Menghitung Volume Bola dan Tekanan Hidrostatis
+![4](https://user-images.githubusercontent.com/115088806/236632321-025739e2-1029-4e73-ac23-d84ad53d98d5.png)
+
+
