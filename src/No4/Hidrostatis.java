@@ -1,15 +1,21 @@
 package No4;
 
 public class Hidrostatis {
-    private double massaJenis, gravitasi, kedalaman;
+    private double tekanan;
 
-    public Hidrostatis(double densitas, double gravitasi, double kedalaman) {
-        this.massaJenis = densitas;
-        this.gravitasi = gravitasi;
-        this.kedalaman = kedalaman;
+
+    public Hidrostatis(double massaJenis, double kedalaman) {
+        if (massaJenis <= 0 || kedalaman <= 0) {
+            System.out.println("nilai tidak boleh kurang dari 0 atau negatif");
+        }
+        this.tekanan= hitungTekanan(massaJenis,kedalaman);
     }
 
-    public double hitungTekanan() {
+    public double hitungTekanan(double massaJenis, double kedalaman) {
+        double gravitasi = 9.8;
         return massaJenis * gravitasi * kedalaman;
+    }
+    public double getTekanan() {
+        return tekanan;
     }
 }

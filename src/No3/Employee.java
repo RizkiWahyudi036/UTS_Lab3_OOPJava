@@ -6,7 +6,7 @@ public class Employee {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
-        this.salary = salary;
+        setSalary(salary);
     }
 
     public int getID() {
@@ -27,7 +27,12 @@ public class Employee {
         return salary;
     }
     public void setSalary(int salary) {
-        this.salary = salary;
+        if (salary > 0) {
+            this.salary = salary;
+        }else {
+            System.out.println("Masukkan Gaji dengan benar");
+            System.out.println("");
+        }
     }
 
     public int getAnnualSalary() {

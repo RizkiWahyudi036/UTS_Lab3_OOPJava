@@ -10,10 +10,17 @@ public class Main {
 
         System.out.println("------------------------------------------------------------------------");
 
-        Hidrostatis hidrostatis1 = new Hidrostatis(500, 9.81, 7.5);
-        System.out.println("Tekanan hidrostatis 1 adalah: " + hidrostatis1.hitungTekanan());
+            Hidrostatis tekanan1 = new Hidrostatis(-8, 5);
+            if (tekanan1.getTekanan() > 0) {
+            System.out.println("Tekanan 1: " + tekanan1.getTekanan() + " N/m^2");
+            }
 
-        Hidrostatis hidrostatis2 = new Hidrostatis(850, 9.81, 10.0);
-        System.out.println("Tekanan hidrostatis 2 adalah: " + hidrostatis2.hitungTekanan());
+            Hidrostatis tekanan2 = new Hidrostatis(9, 10);
+            if (tekanan2.getTekanan() > 0) {
+                System.out.println("Tekanan 2: " + tekanan2.getTekanan() + " N/m^2");
+            }
+
+
+
     }
 }
