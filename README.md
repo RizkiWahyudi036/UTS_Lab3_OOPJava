@@ -25,6 +25,9 @@ NIM GENAP
 
 ### No 4
 Menghitung Volume Bola dan Tekanan Hidrostatis
-![4](https://user-images.githubusercontent.com/115088806/236632321-025739e2-1029-4e73-ac23-d84ad53d98d5.png)
+![Screenshot (803)](https://github.com/RizkiWahyudi036/UTS_Lab3_OOPJava/assets/115088806/95db1594-04ec-4f8e-bce5-e2080b4f301c)
+
+
+
 
 
